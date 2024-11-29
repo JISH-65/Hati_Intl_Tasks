@@ -3,7 +3,7 @@ FLux automation task:
 1. make sure you are in the project directory and using minikube daemon.
 cmd minikube dameon change: minikube -p minikube docker-env | Invoke-Expression
 
-2. install flux cmd: flux install
+2. install flux cmd: flux install --if its not running then first install choclatey in your system then run: ' choco install flux ' and then run 'flux install' 
 
 3. Check wether the GitHub is configured with project directory and docker hub is logined
 
